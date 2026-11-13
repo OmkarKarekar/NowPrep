@@ -1,0 +1,1449 @@
+[
+ {
+  "id": "CAD-1",
+  "q": "Which script types execute on the server? (Choose three.)",
+  "options": [
+   "Business Rule",
+   "Client Scripts",
+   "UI Policies",
+   "Script Actions",
+   "Scheduled Jobs"
+  ],
+  "correct": [
+   0,
+   3,
+   4
+  ],
+  "multi": true
+ },
+ {
+  "id": "CAD-2",
+  "q": "Here is the Business Rule script template: This type of JavaScript function is known as:",
+  "options": [
+   "Constructor",
+   "Scoped",
+   "Anonymous",
+   "Self-invoking"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-3",
+  "q": "Which class is NOT part of the Client side scoped APIs?",
+  "options": [
+   "GuideDialogWindow",
+   "GuideAjex",
+   "GuideRecord",
+   "GuideForm"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-4",
+  "q": "When creating new application files in a scoped application, cross scope access is turned on by default in which of the following?",
+  "options": [
+   "REST messages",
+   "Table",
+   "Script Include",
+   "Workflow"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-5",
+  "q": "A graphical view of relationships among tables is a <blank>.",
+  "options": [
+   "Schema map",
+   "Dependency view",
+   "Graphical User Interface",
+   "Map source report"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-6",
+  "q": "Which of the following statements is true about Guided Application Creator?",
+  "options": [
+   "The global scope option is turned on by default",
+   "A scope application user role is automatically created",
+   "Default access controls are automatically created",
+   "The welcome screen appears every time a new application is created"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-7",
+  "q": "A scoped application containing Flow Designer content dedicated to a particular application is called a(n):",
+  "options": [
+   "Spoke",
+   "Bundle",
+   "Action",
+   "Flow"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-8",
+  "q": "When configuring the content of an Email Notification, which syntax should be used to reference the properties of an event triggering the Notification?",
+  "options": [
+   "${event.<property name>}",
+   "${current.<property name>}",
+   "${property name>.getDisplayValue()}",
+   "${gs.<property name>}"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-9",
+  "q": "When a selecting a data type for a field that will be displayed on a form, which of the following statements is NOT correct?",
+  "options": [
+   "Use the Choice data type to limit options in a field",
+   "Use the Data data type to enter the date and time of day.",
+   "Use the Phone Number data type to automate phone number data validation.",
+   "Use the string data type for a free-form text field."
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-10",
+  "q": "Which one of the following is NOT a debugging strategy for client-side scripts?",
+  "options": [
+   "g_form.addInfoMessage()",
+   "Field Watcher",
+   "jslog()",
+   "gs.log()"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-11",
+  "q": "Which of the following steps can be used to import new data into ServiceNow from a spreadsheet?",
+  "options": [
+   "Select Data Source, Schedule Transform",
+   "Load Data, Create Transform Map, Run Transform Most Voted",
+   "Define Data Source, Select Transform Map, Run Transform",
+   "Select Import Set, Select Transform Map, Run Transform"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-12",
+  "q": "When creating an application through the Guided Application Creator, which of the following is a user experience option?",
+  "options": [
+   "Portal",
+   "Mobile",
+   "Self-service",
+   "Workspace"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-13",
+  "q": "Which objects can you use in a Scheduled Script Execution (Scheduled Job) script?",
+  "options": [
+   "GlideRecord and current",
+   "GlideUser and GlideRecord",
+   "GlideSystem and GlideRecord",
+   "GlideSystem and current"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-14",
+  "q": "Which of the following is NOT supported by Flow Designer?",
+  "options": [
+   "Call a subflow from a flow",
+   "Test a flow with rollback",
+   "Use Delegated Developer",
+   "Run a flow from a MetricBase Trigger"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-15",
+  "q": "Which of the following methods prints a message on a blue background to the top of the current form by default?",
+  "options": [
+   "g_form.addInfoMsg()",
+   "g_form.addInfoMessage()",
+   "g_form.showFieldMessage()",
+   "g_form.showFieldMsg()"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-16",
+  "q": "How does ServiceNow match inbound email to existing records?",
+  "options": [
+   "Watermark",
+   "Record link",
+   "Subject line",
+   "sys_id"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-17",
+  "q": "In a Business Rule, which one of the following returns the sys_id of the currently logged in user?",
+  "options": [
+   "g_form getUserID()",
+   "g_form getUserSysy",
+   "gs.getUserSysID()",
+   "gs.getUserID()"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-18",
+  "q": "What are the benefits of storing the majority of an Application’s server-side script logic in a Script Include? a) This makes execution faster. b) Only run when called from a script. c) The script logic can be hidden when the Application is installed from the ServiceNow Store. d. For somechanges to application logic there is only one place to make edits.",
+  "options": [
+   "a, b, and d",
+   "a, b, c, and d",
+   "b, c, and d",
+   "a, b, and c"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-19",
+  "q": "What syntax is used in a Record Producer script to access values from Record Producer form fields?",
+  "options": [
+   "producer.field_name",
+   "producer.variablename",
+   "current.variable_name",
+   "current.field_name"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-20",
+  "q": "What are some of the benefits of extending an existing table such as the Task table when creating a new application? a)You can repurpose existing fields by simply changing the label. b)Use existing fields with no modifications. c)Existing logic from the parent table will be automatically applied to the new table. d)All of the parent table records are copied to the new table.",
+  "options": [
+   "a, b, c, and d",
+   "a and b",
+   "b and c",
+   "a, b, and c"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-21",
+  "q": "When configuring an Access Control which has no condition or script, which one of the following statements is NOT true?",
+  "options": [
+   "table.*will grant access to every field in a record",
+   "table.None will grant access to every record on the table",
+   "table.field will grant access to a specific field in a record",
+   "table.id will grant access to a specific record on the table"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-22",
+  "q": "What are three ServiceNow table creation methods? (Choose three.)",
+  "options": [
+   "Using legacy Workflows",
+   "Upload and turn a spreadsheet into a custom table",
+   "Using Flow Designer",
+   "Use the Now Experience Table Creator",
+   "Extend a table"
+  ],
+  "correct": [
+   1,
+   4
+  ],
+  "multi": true
+ },
+ {
+  "id": "CAD-23",
+  "q": "In a Business Rule, which one of the following returns true if the currently logged in user has the admin role?",
+  "options": [
+   "g_form.hasRoleExactly(‘admin’)",
+   "gs.hasRole(‘admin’)",
+   "g_form.hasRole(‘admin’)",
+   "gs.hasRoleExactly(‘admin’)"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-24",
+  "q": "Which one of the following client-side scripts apply to Record Producers?",
+  "options": [
+   "Catalog Client Scripts and Catalog UI Policies",
+   "UI Scripts and UI Actions",
+   "UI Scripts and Record Producer Scripts",
+   "Client Scripts and UI Policies"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-25",
+  "q": "When a ServiceNow instance requests information from a web service, ServiceNow is the web service:",
+  "options": [
+   "Publisher",
+   "Specialist",
+   "Provider",
+   "Consumer"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-26",
+  "q": "What is a Module?",
+  "options": [
+   "The functionality within an application menu such as opening a page in the content frame or a separate tab or",
+   "A group of menus, or pages, providing related information and functionality to end-users",
+   "A way of helping users quickly access information and services by filtering the items in the Application",
+   "A web-based way of providing software to end-users"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-27",
+  "q": "Which one of the following is true regarding Application Scope?",
+  "options": [
+   "All applications are automatically part of the Global scope",
+   "Applications downloaded from 3rd party ServiceNow application developers cannot have naming conflicts",
+   "Any developer can edit any application",
+   "Developers can choose the prefix for a scope’s namespace"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-28",
+  "q": "Which one of the following is true for a table with the “Allow configuration” Application Access option selected?",
+  "options": [
+   "Only the in scope application’s scripts can create Business Rules for the table",
+   "Any user with the application’s user role can modify the application’s scripts",
+   "Out of scope applications can create Business Rules for the table",
+   "Out of scope applications can add new tables to the scoped application"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-29",
+  "q": "Access Control debug information identification whether each element of an Access Control granted of denied access. The elements of an Access Control evaluated?",
+  "options": [
+   "Conditions, Script, Roles",
+   "Script, Conditions, Roles",
+   "Conditions, Roles, Script",
+   "Roles, Conditions, Script"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-30",
+  "q": "Which of the following statements does NOT apply when extending an existing table?",
+  "options": [
+   "The parent table’s Access Controls are evaluated when determining access to the new table’s records and",
+   "The new table inherits the functionality built into the parent table",
+   "The new table inherits all of the fields from the parent table",
+   "You must script and configure all required behaviors"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-31",
+  "q": "Identify the way(s) an application can respond to an Event generated by the gs.eventQueue() method. a) Script Action b) Scheduled Script Execution (Scheduled Job) c) UI Policy d) Email Notification",
+  "options": [
+   "b and c",
+   "c",
+   "a and d",
+   "a and c"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-32",
+  "q": "When configuring a REST Message, the Endpoint is:",
+  "options": [
+   "The commands to the REST script to stop execution",
+   "The URI of the data to be accessed, queried, or modified",
+   "Information about the format of the returned data",
+   "The response from the provider indicating there is no data to send back"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-33",
+  "q": "Which roles grant access to source control repository operations such as importing applications from source control, or linking an application to source control? (Choose two.)",
+  "options": [
+   "source_control",
+   "source_control_admin",
+   "admin",
+   "git_admin"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CAD-34",
+  "q": "Which method call returns true only if the currently logged in user has the catalog_admin role and in no other case?",
+  "options": [
+   "g_user.hasRole(‘catalog_admin’)",
+   "g_user.hasRoleExactly(‘catalog_admin’)",
+   "g_user.hasRoleOnly(‘catalog_admin’)",
+   "g_user.hasRoleFromList(‘catalog_admin’)"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-35",
+  "q": "Which one of the following is NOT a method used for logging messages in a server-side script for a privatelyscoped application?",
+  "options": [
+   "gs.log()",
+   "gs.error()",
+   "gs.warn()",
+   "gs.debug()"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-36",
+  "q": "Which one of the following is NOT an example of when an application might use a Scheduled Script Execution (Scheduled Job)?",
+  "options": [
+   "The application needs to send weekly email reminders to requestors for all records on a table",
+   "The application needs to run a clean up script on the last day of every month",
+   "The application needs to query the database every day to look for unassigned records",
+   "The application needs to run a client-side script at the same time every day"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-37",
+  "q": "What is the best UX format to use for lists and forms?",
+  "options": [
+   "Forms",
+   "Lists",
+   "Standard",
+   "Classic"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-38",
+  "q": "How can an application link to a repository behind a firewall?",
+  "options": [
+   "This option is not supported.",
+   "Link an application to source control through a MID Server.",
+   "Link an application to source control through an access token.",
+   "Link an application to source control with multi-factor authentication."
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-39",
+  "q": "To see what scripts, reports, and other application artifacts will be in a published application:",
+  "options": [
+   "Enter the name of the Application in the Global search field",
+   "Open the list of Update Sets for the instance",
+   "Examine the Application Files Related List in the application to be published",
+   "Open the artifact records individually to verify the value in the Application field"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-40",
+  "q": "Why would you build a custom app?",
+  "options": [
+   "To fulfill is specific use case on internal processes.",
+   "To avoid using a code repository like GiotHub or GitLab",
+   "To create a custom integration for a 3rd party system",
+   "To replace servieNow base tables"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CAD-41",
+  "q": "Which objects can be used in Inbound Action scripts?",
+  "options": [
+   "current and previous",
+   "current and email",
+   "current and event",
+   "current and producer"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-42",
+  "q": "Which method is used to retrieve Application Property values in a script?",
+  "options": [
+   "gs.getProperty()",
+   "g_form.getAppProperty()",
+   "g_form.getProperty()",
+   "gs.getAppProperty()"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-43",
+  "q": "Which one of the following is true for a Script Include with a Protection Policy value of Protected?",
+  "options": [
+   "Any user with the protected_edit role can see and edit the Script Include",
+   "The Protection policy option can only be enabled by a user with the admin role",
+   "The Protection Policy is applied only if the glide.app.apply_protection system property value is true",
+   "The Protection Policy is applied only if the application is downloaded from the ServiceNow App Store"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-44",
+  "q": "Which of the following is true for the Application Picker and Application Scope?",
+  "options": [
+   "Selecting application from the Application Picker does not set the Application Scope.",
+   "Selecting Global in the Application Picker sets the Application Scope to incident",
+   "Global is a reserved application which does not appear in the Application Picker",
+   "Selecting an application from the Application Picker sets the Application Scope"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-45",
+  "q": "How must Application Access be configured to prevent all other private application scopes from creating configuration records on an application’s data tables?",
+  "options": [
+   "You must create Access Controls to prevent all other application scopes from creating configuration records",
+   "Set the Accessible from field value to All application scopes and de-select the Can create option",
+   "Set the Accessible from field value to This application scope only and de-select the Allow access to this table",
+   "Set the Accessible from field value to This application scope only"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-46",
+  "q": "It is best practice to define the business requirements and the process(es) an application will manage as part of the application development plan. What are some of the considerations to document as part of the business process?",
+  "options": [
+   "Business problem, data input/output, users/stakeholders, and process steps",
+   "Business problem, data input/output, project schedule, and process steps",
+   "Business problem, data input/output, users/stakeholders, and database capacity",
+   "Business problem, users/stakeholders, available licenses, and database capacity"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-47",
+  "q": "Which of the following objects does a Display Business Rule NOT have access to?",
+  "options": [
+   "previous",
+   "GlideSystem",
+   "g_scratchpad",
+   "current"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-48",
+  "q": "Which one of the following is NOT required to link a ServiceNow application to a Git repository?",
+  "options": [
+   "Password",
+   "URL",
+   "User name",
+   "Application name"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-49",
+  "q": "Which of the following are true for reports in ServiceNow? (Choose three.)",
+  "options": [
+   "Any user can see any report shared with them.",
+   "Can be a graphical representation of data.",
+   "All users can generate reports on any table.",
+   "Can be run on demand by authorized users.",
+   "Can be scheduled to be run and distributed by email."
+  ],
+  "correct": [
+   1,
+   3,
+   4
+  ],
+  "multi": true
+ },
+ {
+  "id": "CAD-50",
+  "q": "From the list below, identify one reason an application might NOT be a good fit with ServiceNow. The application:",
+  "options": [
+   "Needs workflow to manage processes",
+   "Requires “as-is” use of low-level programming libraries",
+   "Requires reporting capabilities",
+   "Uses forms extensively to interact with data"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-51",
+  "q": "Assume a table called table exists and contains 3 fields: field1, field2, field3. Examine the Access Control list for table: Which field or fields can a user with the itil role read?",
+  "options": [
+   "field3 only",
+   "filed1 and field3",
+   "All fields",
+   "All fields except field3"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-52",
+  "q": "Which one of the following is part of the client-side scripting API?",
+  "options": [
+   "workflow.scratchpad",
+   "GlideUser object (g_user)",
+   "current and previous objects",
+   "GlideSystem object (gs)"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-53",
+  "q": "In an Email Notification, which one of the following is NOT true for the Weight field?",
+  "options": [
+   "Only Notifications with the highest weight for the same record and recipients are sent",
+   "A Weight value of zero means that no email should be sent",
+   "The Weight value defaults to zero",
+   "A Weight value of zero means the Notification is always sent when the Notification’s When to send criteria is"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-54",
+  "q": "Which one of the following is true?",
+  "options": [
+   "A UI Policy’s Actions execute before the UI Policy’s Scripts",
+   "The execution order for a UI Policy’s Scripts and Actions is determined at runtime",
+   "A UI Policy’s Scripts execute before the UI Policy’s Actions",
+   "A UI Policy’s Actions and Scripts execute at the same time"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-55",
+  "q": "Which one of the following objects CANNOT be used in a Script Action script?",
+  "options": [
+   "previous",
+   "GlideRecord",
+   "event",
+   "current"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-56",
+  "q": "Which platform feature can be used to determine the relationships between field in an Import Set table to field in an existing ServiceNow table?",
+  "options": [
+   "Business Service Management Map",
+   "Data Sources",
+   "Transform Map",
+   "Cl Relationship Builder"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-57",
+  "q": "When working in the Form Designer, configuring the label of a field in a child table changes the label on which table(s)?",
+  "options": [
+   "base table",
+   "child table",
+   "parent table",
+   "all tables"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-58",
+  "q": "Which of the following is an available feature in Studio? Choose 2 answers",
+  "options": [
+   "Push to external source control",
+   "Search branch",
+   "Merge branches",
+   "Push to update set"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CAD-59",
+  "q": "The task table is an example of which of the following? Choose 2 answers",
+  "options": [
+   "Legacy class",
+   "Child class",
+   "Base class",
+   "Parent class"
+  ],
+  "correct": [
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CAD-60",
+  "q": "Which one of the following is true for the Application Picker?",
+  "options": [
+   "All custom application scope and the Global scope appear in the Application Picker",
+   "All applications in ServiceNow, including baseline applications like Incident, appear in the Application Picker",
+   "Only custom applications appear in the Application Picker",
+   "Only downloaded applications appear in the Application Picker"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-61",
+  "q": "When evaluating Access Controls, ServiceNow searches and evaluates:",
+  "options": [
+   "Only for matches on the current table",
+   "Only for matches on the current field",
+   "From the most specific match to the most generic match",
+   "From the most generic match to the most specific match"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-62",
+  "q": "Which source control operation is available from BOTH Studio and the Git Repository?",
+  "options": [
+   "Create Branch",
+   "Apply Remote Changes",
+   "Stash Local Changes",
+   "Edit Repository Configurations"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-63",
+  "q": "Which one of the following is NOT part of the Form Designer?",
+  "options": [
+   "Form layout",
+   "Page header",
+   "Schema map",
+   "Field navigator"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-64",
+  "q": "There is a basic strategy when creating a Utils Script Include. Identify the step that does not belong.",
+  "options": [
+   "Identify the table",
+   "Script the function(s)",
+   "Create a class",
+   "Create a prototype object from the new class"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-65",
+  "q": "What plugin enables the Guided Application Creator?",
+  "options": [
+   "com.glide.sn-guided-app-creator",
+   "com.glide.service_creator",
+   "com.glide.snc.apps_creator",
+   "com.snc.apps_creator_template"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-66",
+  "q": "Application developers configure ServiceNow using industry standard JavaScript to…",
+  "options": [
+   "Enable the right-click to edit the context menus on applications in the navigator",
+   "Extend and add functionality",
+   "Customize the organization’s company logo and banner text",
+   "Configure the outgoing email display name"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-67",
+  "q": "Which one of the following is true for GlideUser (g_user) methods?",
+  "options": [
+   "Can be used in Client Scripts and UI Policies only",
+   "Can be used in Business Rules only",
+   "Can be used in Client Scripts, UI Policies, and UI Actions",
+   "Can be used in Business Rules, and Scripts Includes"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-68",
+  "q": "You are developing the MyApp application that has a table, Table",
+  "options": [
+   "When the MyApp application is installed on an instance, you want Table A's records to be installed as part of",
+   "Table A's records are added to the application record using the Create Application Files context menu item",
+   "Table A has an automatic number counter for new records",
+   "Table A is not included in the System Clone > Exclude Tables list"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-69",
+  "q": "When designing and creating a form, what do you create to organize fields on a form?",
+  "options": [
+   "Related lists",
+   "Tabs",
+   "Sections",
+   "Buttons"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-70",
+  "q": "Which of the following methods are useful in Access Control scripts?",
+  "options": [
+   "g_user.hasRole() and current.isNewRecord()",
+   "gs.hasRole() and current.isNewRecord()",
+   "g_user.hasRole() and current.isNew()",
+   "gs.hasRole() and current.isNew()"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-71",
+  "q": "When creating an application through the Guided Application Creator, which of the following is NOT an option for creating a table?",
+  "options": [
+   "Upload spreadsheet",
+   "Create table from template",
+   "Extend a table",
+   "Create table from scratch"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-72",
+  "q": "Which of the following statements is true for the Form Designer? a)To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form. b)To create a new field on a form’s table, drag the appropriate data type from the Field Types tab to the form and then configure the new field. c)To remove a field from the form layout, hover over the field to enable the Action buttons, and select the Delete (X) button. d)To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form.",
+  "options": [
+   "a, b, c, and d",
+   "b, c, and d",
+   "a, b, and d",
+   "a, b, and c"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-73",
+  "q": "Which of the following is NOT a trigger type in Flow Designer?",
+  "options": [
+   "Outbound Email",
+   "Application",
+   "Record",
+   "Schedule"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-74",
+  "q": "Which one of the following is NOT a UI Action type?",
+  "options": [
+   "List choice",
+   "Form button",
+   "List banner button",
+   "Form choice"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-75",
+  "q": "Which of the following is NOT a caller access field option?",
+  "options": [
+   "Caller Tracking",
+   "Caller Restriction",
+   "None",
+   "Caller Permission"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-76",
+  "q": "Which Application Access configuration field(s) are NOT available if the Can read configuration field is NOT selected?",
+  "options": [
+   "All access to this table via web services",
+   "Can create, Can update, and Can delete",
+   "Can read does not affect the availability of other Application Access fields",
+   "Allow configuration"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-77",
+  "q": "Modules must have a Link type. Which one of the following is a list of Link types?",
+  "options": [
+   "List of Records, Separator, Catalog Type, Roles",
+   "Assessment, List of Records, Separator, Timeline Page",
+   "List of Records, Content Page, Order, URL (from arguments:)",
+   "Assessment, List of Records, Content Page, Roles"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-78",
+  "q": "Which of the following is true about deleting fields from a table?",
+  "options": [
+   "Any field on a table can be deleted",
+   "User-defined non-inherited fields can be detected",
+   "Inherited fields can be detected",
+   "Table records are deleted when a field is detected"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-79",
+  "q": "Identify the incorrect statement about Delegated Development in ServiceNow.",
+  "options": [
+   "Administrators can grant non-admin users the ability to develop global applications.",
+   "Administrators can specify which application file types the developer can access.",
+   "Administrators can grant the developer access to script fields.",
+   "Administrators can grant the developer access to security records."
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-80",
+  "q": "Which of the following statements is NOT true for the Form Designer?",
+  "options": [
+   "To add a section to the form layout, drag it from the Field Types tab to the desired destination on the form.",
+   "To add a field to the form layout, drag the field from the Fields tab to the desired destination on the form.",
+   "To remove a field from the form layout, hover over the field to enable the Action buttons, and select the",
+   "To create a new field on a form’s table, drag the appropriate data type from the Field Types tab to the form"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-81",
+  "q": "What is the purpose of the Application Picker?",
+  "options": [
+   "Select an application to run",
+   "Select an application as a favorite in the Application Navigator",
+   "Choose an application to edit and set the Application Scope",
+   "Choose an application to download and install"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-82",
+  "q": "Which of the following features are available to Global applications? (Choose two.)",
+  "options": [
+   "Automated Test Framework",
+   "Source Control",
+   "Delegated Development",
+   "Flow Designer"
+  ],
+  "correct": [
+   0,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CAD-83",
+  "q": "Which of the following GuideRecord methods run a query against a database table? Choose 3 answers",
+  "options": [
+   "-query( )",
+   "runQuery()",
+   "query()",
+   "-get()",
+   "get("
+  ],
+  "correct": [
+   0,
+   2,
+   4
+  ],
+  "multi": true
+ },
+ {
+  "id": "CAD-84",
+  "q": "Which one of the following is the fastest way to create and configure a Record Producer?",
+  "options": [
+   "Create a Catalog Category, open the category, and select the Add New Record Producer button",
+   "Use the Record Producer module then add and configure all variables manually",
+   "Open the table in the Table records and select the Add to Service Catalog Related Link",
+   "Open the table’s form, right-click on the form header, and select the Create Record Producer menu item"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-85",
+  "q": "When configuring a module, what does the Override application menu roles configuration option do?",
+  "options": [
+   "Users with the module role but without access to the application menu access the module",
+   "Self-Service users can access the module even though they do not have roles",
+   "Admin is given access to the module even if Access Controls would ordinarily prevent access",
+   "Users with access to the application menu can see the module even if they don’t have the module role"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-86",
+  "q": "Which of the following are configured in an Email Notification? a)Who will receive the notification. b)What content will be in the notification. c)When to send the notification. d)How to send the notification.",
+  "options": [
+   "a, b and c",
+   "a, b, and d",
+   "b, c and d",
+   "a, c and d"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-87",
+  "q": "Which of the following CANNOT be debugged using the Field Watcher?",
+  "options": [
+   "Business Rules",
+   "Script Includes",
+   "Client Scripts",
+   "Access Controls"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-88",
+  "q": "How many applications menus can an application have?",
+  "options": [
+   "3, one for an application’s user modules, one for an application’s administrator modules, and one for the",
+   "As many as the application design requires",
+   "2, one for an application’s user modules and one for an application’s administrator modules",
+   "1, which is used for all application modules"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-89",
+  "q": "Client-side scripts manage what?",
+  "options": [
+   "Forms and Forms Fields",
+   "Playbook access",
+   "Database and backend",
+   "User access"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-90",
+  "q": "Which Report Type(s) can be created by right-clicking on a column header in a table’s list?",
+  "options": [
+   "Bar Chart, Pie Chart, Histogram, and Line",
+   "Bar Chart",
+   "Bar Chart, Pie Chart, and Histogram",
+   "Bar Chart and Pie Chart"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-91",
+  "q": "Which one of the following is the baseline behavior of a table in a privately-scoped application?",
+  "options": [
+   "The table and its data are not accessible using web services",
+   "Any Business Rule can read, write, delete, and update from the table",
+   "Only artifacts in the table’s application can read from the table",
+   "All application scopes can read from the table"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-92",
+  "q": "Access Control debug information identifies whether each element of an Access Control granted or denied access. The elements appear in the debug information in the order of evaluation. In which order are the elements of an Access Control evaluated?",
+  "options": [
+   "Conditions, Roles, Script",
+   "Conditions, Script, Roles",
+   "Roles, Conditions, Script",
+   "Script, Conditions, Roles"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-93",
+  "q": "What records are used to track cross-scope applications or scripts that request access to an application, application resource, or event?",
+  "options": [
+   "Restricted caller access records",
+   "Caller tracking records",
+   "Access control level records",
+   "Cross-scope access records"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-94",
+  "q": "Which of the following is a good practice for adding instructions to a form?",
+  "options": [
+   "Annotations",
+   "Related links to wiki pages",
+   "A context Menu UI Action",
+   "A population read-only field"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-95",
+  "q": "Which of the following is NOT a way to install an application on a ServiceNow instance?",
+  "options": [
+   "Install an application from the Application Repository",
+   "Select the Copy button on the application record",
+   "Download and install an application from the ServiceNow Share web site",
+   "Download and install a third-party application from the ServiceNow Store"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-96",
+  "q": "The source control operation used to store local changes on an instance for later application is called a(n) <blank>.",
+  "options": [
+   "Branch",
+   "Tag",
+   "Stash",
+   "Update set"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-97",
+  "q": "If the Create module field is selected when creating a table, what is the new module’s default behavior?",
+  "options": [
+   "Open an empty form so new records can be created",
+   "Open a link to a wiki article with instructions on how to customize the behavior of the new module",
+   "Display an empty homepage for the application",
+   "Display a list of all records from the table"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-98",
+  "q": "One of the uses of the ServiceNow REST API Explorer is:",
+  "options": [
+   "Practice using REST to interact with public data providers",
+   "Find resources on the web for learning about REST",
+   "Convert SOAP Message functions to REST methods",
+   "Create sample code for sending REST requests to ServiceNow"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-99",
+  "q": "When writing a Client Script to provide feedback targeted at a specific field, which method should be used?",
+  "options": [
+   "g_form.showInfoMessage()",
+   "g_form.showFieldMsg()",
+   "g_form.addInfoMessage()",
+   "g_form.addFieldMsg()"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-100",
+  "q": "When creating a table in a privately-scoped application, which four Access Controls are created for the table?",
+  "options": [
+   "Insert, Delete, Query, Write",
+   "Create, Delete, Read, Write",
+   "Create, Delete, Read, Update",
+   "Insert, Delete, Query, Update"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-101",
+  "q": "Which one of the following is NOT a purpose of application scoping?",
+  "options": [
+   "Provide a relationship between application artifacts",
+   "Provide a way of tracking the user who developed an application",
+   "Provide a namespace (prefix and scope name) to prevent cross application name collisions",
+   "Provide controls for how scripts from another scope can alter tables in a scoped application"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CAD-102",
+  "q": "What are the ways to designate data tables when Guided Application Creator (GAC)? Choose 3 answers",
+  "options": [
+   "Upload an existing PDF",
+   "Create a new table on the platform",
+   "Use an existing table on the platform",
+   "Upload an existing spreadsheet",
+   "Upload an existing word processing document."
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ],
+  "multi": true
+ }
+]

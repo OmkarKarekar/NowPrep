@@ -1,0 +1,2988 @@
+[
+ {
+  "id": "CSM-1",
+  "q": "Most Customer Service Solutions are not sufficient because",
+  "options": [
+   "They are too expensive for small teams",
+   "They only track case volume and not customer satisfaction",
+   "They are focused on managing relationships with the customer, not optimizing the service processes.",
+   "They cannot run on a cloud platform"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-2",
+  "q": "Poor customer experiences can lead to (choose all that apply)",
+  "options": [
+   "Customer churn",
+   "Loss of revenue",
+   "Tarnishing of brand image",
+   "Loss of brand value"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-3",
+  "q": "CSM offers case management with (choose all that apply)",
+  "options": [
+   "Skills-based routing",
+   "Real-time Service Level Agreements (SLAs)",
+   "Service Contracts",
+   "Service Entitlements"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-4",
+  "q": "Impact of the ServiceNow approach to CSM (choose all that apply)",
+  "options": [
+   "30% lower case growth versus customer growth",
+   "2400 issues fixed proactively each quarter",
+   "13-point increase in NPS from automated fixes and updates",
+   "25% case deflection through self-service portal"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-5",
+  "q": "Primary entity of the CSM",
+  "options": [
+   "Case",
+   "Incident",
+   "Problem",
+   "Change request"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-6",
+  "q": "Which of the following is NOT a component of CSM?",
+  "options": [
+   "Tables",
+   "Roles",
+   "Properties",
+   "Data Policies, Scripts, Business Rules",
+   "Email Notifications",
+   "Events"
+  ],
+  "correct": [
+   5
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-7",
+  "q": "Two types of cases (choose all that apply)",
+  "options": [
+   "Product",
+   "Order"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-8",
+  "q": "Match: Customer Portal",
+  "options": [
+   "Business to business interactions",
+   "Business to consumer interactions",
+   "Uses content management system",
+   "Used by internal employees"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-9",
+  "q": "Match: Customer Support Portal",
+  "options": [
+   "Business to business interactions",
+   "Used by internal employees",
+   "Uses content management system",
+   "Business to consumer interactions"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-10",
+  "q": "Match: Customer Service Portal",
+  "options": [
+   "Uses content management system",
+   "Business to consumer interactions",
+   "Used by internal employees",
+   "Business to business interactions"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-11",
+  "q": "Match: Service Portal",
+  "options": [
+   "Business to consumer interactions",
+   "Used by internal employees",
+   "Business to business interactions",
+   "Uses content management system"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-12",
+  "q": "What is the final state of a case?",
+  "options": [
+   "Resolved",
+   "Resolution Accepted",
+   "Completed",
+   "Closed"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-13",
+  "q": "CSM does not entitle customers to use Incident, Problem and Change for their internal ITSM use cases.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-14",
+  "q": "Customer Service Management applications are scoped. Changes made to CSM tables and forms do not impact other departments or applications on the platform.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-15",
+  "q": "Who can be added as contacts in an asset contact related list? (choose all that apply)",
+  "options": [
+   "The account that the asset belongs to",
+   "The contacts from the partner account relationship",
+   "Any contacts added to these accounts, using contact relationship"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-16",
+  "q": "Who can create a Recipients List?",
+  "options": [
+   "System Administrator",
+   "Customer Service Agent",
+   "Customer Admin",
+   "Consumer"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-17",
+  "q": "Who can create new Publications? (users with publication roles)",
+  "options": [
+   "sn_publications.author",
+   "sn_publications.admin"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-18",
+  "q": "Agent field unable to see Used Address for on this table csm_location",
+  "options": [
+   "Field is not added in form layout",
+   "Field is hidden by a business rule",
+   "Field is read-only in the list layout",
+   "Field is mandatory on the form"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-19",
+  "q": "ACME corporation has shipping and billing address but agent cannot see address types on the record (choose all that apply)",
+  "options": [
+   "UI macro: use_same_address_for is not configured on form layout",
+   "UI macro: same_address_for not configured on form",
+   "Address types not configured in location_type",
+   "Address types not configured in cmn_location type"
+  ],
+  "correct": [
+   0,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-20",
+  "q": "Match: Customer Admin",
+  "options": [
+   "Agents and agent managers who use the platform",
+   "Configure the properties and settings",
+   "Agents that manage other agents or agent groups",
+   "Manage and view all the cases opened for his accounts",
+   "Create and manage cases for their resolution"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-21",
+  "q": "Match: Customer Agents",
+  "options": [
+   "Create and manage cases for their resolution",
+   "Agents that manage other agents or agent groups",
+   "Agents and agent managers who use the platform",
+   "Configure the properties and settings",
+   "Manage and view all the cases opened for his accounts"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-22",
+  "q": "Match: Customer Managers",
+  "options": [
+   "Create and manage cases for their resolution",
+   "Agents that manage other agents or agent groups",
+   "Manage and view all the cases opened for his accounts",
+   "Agents and agent managers who use the platform",
+   "Configure the properties and settings"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-23",
+  "q": "Match: Internal Users",
+  "options": [
+   "Configure the properties and settings",
+   "Agents that manage other agents or agent groups",
+   "Agents and agent managers who use the platform",
+   "Create and manage cases for their resolution",
+   "Manage and view all the cases opened for his accounts"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-24",
+  "q": "Match: Admin",
+  "options": [
+   "Agents and agent managers who use the platform",
+   "Configure the properties and settings",
+   "Agents that manage other agents or agent groups",
+   "Manage and view all the cases opened for his accounts",
+   "Create and manage cases for their resolution"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-25",
+  "q": "Support social profiles (choose all that apply)",
+  "options": [
+   "Facebook",
+   "Twitter",
+   "LinkedIn"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-26",
+  "q": "Social profiles are supported for (choose all that apply)",
+  "options": [
+   "Contacts",
+   "Consumers",
+   "Accounts",
+   "Agents"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-27",
+  "q": "Match: Account",
+  "options": [
+   "service_entitlement",
+   "ast_contract",
+   "customer_contact",
+   "customer_contact",
+   "alm_asset",
+   "cmdb_model",
+   "customer_account",
+   "customer_partner"
+  ],
+  "correct": [
+   6
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-28",
+  "q": "Match: Contact",
+  "options": [
+   "alm_asset",
+   "customer_partner",
+   "customer_contact",
+   "service_entitlement",
+   "ast_contract",
+   "customer_account",
+   "cmdb_model",
+   "customer_contact"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-29",
+  "q": "Match: Partner",
+  "options": [
+   "service_entitlement",
+   "customer_account",
+   "customer_contact",
+   "customer_partner",
+   "ast_contract",
+   "cmdb_model",
+   "customer_contact",
+   "alm_asset"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-30",
+  "q": "Match: Partner Contact",
+  "options": [
+   "cmdb_model",
+   "ast_contract",
+   "customer_contact",
+   "service_entitlement",
+   "customer_account",
+   "customer_contact",
+   "alm_asset",
+   "customer_partner"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-31",
+  "q": "Match: Product",
+  "options": [
+   "cmdb_model",
+   "customer_contact",
+   "ast_contract",
+   "customer_account",
+   "customer_partner",
+   "customer_contact",
+   "service_entitlement",
+   "alm_asset"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-32",
+  "q": "Match: Asset",
+  "options": [
+   "alm_asset",
+   "customer_account",
+   "cmdb_model",
+   "customer_contact",
+   "customer_contact",
+   "service_entitlement",
+   "ast_contract",
+   "customer_partner"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-33",
+  "q": "Match: Contract",
+  "options": [
+   "customer_account",
+   "customer_contact",
+   "service_entitlement",
+   "customer_partner",
+   "alm_asset",
+   "cmdb_model",
+   "ast_contract",
+   "customer_contact"
+  ],
+  "correct": [
+   6
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-34",
+  "q": "Match: Entitlement",
+  "options": [
+   "alm_asset",
+   "customer_partner",
+   "customer_contact",
+   "ast_contract",
+   "customer_account",
+   "customer_contact",
+   "cmdb_model",
+   "service_entitlement"
+  ],
+  "correct": [
+   7
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-35",
+  "q": "Match: Account",
+  "options": [
+   "Who sells the products",
+   "Can be related to an account",
+   "Who buys the product for personal use",
+   "Can be partner or customer account"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-36",
+  "q": "Match: Contact",
+  "options": [
+   "Can be partner or customer account",
+   "Who sells the products",
+   "Can be related to an account",
+   "Who buys the product for personal use"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-37",
+  "q": "Match: Partner",
+  "options": [
+   "Who buys the product for personal use",
+   "Can be related to an account",
+   "Can be partner or customer account",
+   "Who sells the products"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-38",
+  "q": "Match: Consumer",
+  "options": [
+   "Can be related to an account",
+   "Who buys the product for personal use",
+   "Can be partner or customer account",
+   "Who sells the products"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-39",
+  "q": "Case state flow (choose all that apply)",
+  "options": [
+   "New",
+   "Open",
+   "Awaiting Info",
+   "Resolved",
+   "Closed"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-40",
+  "q": "A case will be set to Resolved when",
+  "options": [
+   "Agent proposes a solution",
+   "Customer accepts the solution",
+   "Customer rejects the solution",
+   "Case is moved to Awaiting Info"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-41",
+  "q": "The case is set to Open when the customer rejects the solution.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-42",
+  "q": "A case will be set to Closed if (choose all that apply)",
+  "options": [
+   "Customer accepts the solution",
+   "Case is not valid due to no actions or reply",
+   "Can be moved to Closed state by customer or agent"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-43",
+  "q": "How to convert a user to a contact?",
+  "options": [
+   "Delete the user record and create a new contact",
+   "Change the class field sys_class_name from company to contact only",
+   "Change the class field sys_class_name from user to contact, and associate the contact with an account. To change to an account type, change the class field sys_class_name from company to Account.",
+   "Add the user to the Partner Account Relationship table"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-44",
+  "q": "How to remove an account from a partner?",
+  "options": [
+   "Delete the partner record",
+   "Remove the contact from the partner group",
+   "Remove the account from the Account Relationship table.",
+   "Set the account's active flag to False"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-45",
+  "q": "How to make a partnership inactive?",
+  "options": [
+   "Update the partner flag to False.",
+   "Update the account type to Consumer",
+   "Delete the account relationship record",
+   "Remove the partner's roles"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-46",
+  "q": "customer_account extends",
+  "options": [
+   "core_company",
+   "sys_user"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-47",
+  "q": "contact extends",
+  "options": [
+   "core_company",
+   "sys_user"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-48",
+  "q": "How can a contact be promoted to become a user?",
+  "options": [
+   "Automatically, when the contact logs in to the portal",
+   "Change the contact's class to user in the Contact table",
+   "Assign the snc_external role directly in the account record",
+   "The admin can manually promote the contact by adding login information, or use the sample script 'convert_sysuser_to_contact.js'."
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-49",
+  "q": "Choose plugins which are enabled when the CSM plugin is installed (choose 3)",
+  "options": [
+   "Skills Management",
+   "Task Activities",
+   "Community",
+   "OpenFrame"
+  ],
+  "correct": [
+   0,
+   1,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-50",
+  "q": "What can be customized in the Quick Setup tab of the Branding Editor?",
+  "options": [
+   "Theme Colors",
+   "Text Colors",
+   "Portal Title",
+   "Navbar"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-51",
+  "q": "Consumer Service Portal title in the Service Portal table",
+  "options": [
+   "Customer Service",
+   "Consumer Support",
+   "Customer Portal",
+   "Partner Portal"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-52",
+  "q": "Different configurations for CSM / CSP portals (choose all that apply)",
+  "options": [
+   "Title",
+   "URL Suffix",
+   "Knowledge Base",
+   "KB Home",
+   "Catalog Home",
+   "Theme"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-53",
+  "q": "Different ways of creating cases (choose all that apply)",
+  "options": [
+   "Chat",
+   "Customer Service Application",
+   "Account",
+   "Contract",
+   "Entitlements",
+   "Assets"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-54",
+  "q": "How to create a new catalog item from the application navigator?",
+  "options": [
+   "Maintain Items",
+   "Catalog item"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-55",
+  "q": "Agents and customer managers cannot create articles from community questions.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-56",
+  "q": "Agents and customer managers cannot create cases from community questions.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-57",
+  "q": "Who can create cases from community questions? (choose all that apply)",
+  "options": [
+   "Customer Service Agents",
+   "Consumer Service Agents",
+   "Customer Service Managers",
+   "Users with the sn_customerservice.proxy_case_creator role"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-58",
+  "q": "Which are true with respect to the Timeline in CSM? (choose all that apply)",
+  "options": [
+   "Activities performed by agents are shown above the timeline",
+   "Activities performed by customers are shown below the timeline",
+   "Overlapping states and conversations are shown with thicker borders and lines"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-59",
+  "q": "Items can be filtered based on customer's assets (choose all that apply)",
+  "options": [
+   "Knowledge Articles",
+   "Entitlements",
+   "Contracts",
+   "Matching Rules"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-60",
+  "q": "Special Handling Notes (SHN) can apply to (choose all that apply)",
+  "options": [
+   "Cases",
+   "Account",
+   "Contact",
+   "Product Model",
+   "Asset",
+   "Contracts",
+   "Partner"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-61",
+  "q": "SHN can be displayed in (choose all that apply)",
+  "options": [
+   "Pop-up window",
+   "Embedded list"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-62",
+  "q": "Which script is used to expire SHN?",
+  "options": [
+   "The 'Deactivate Special Handling Notes' scheduled job, which runs daily at midnight and sets the status to Expired based on the expiration date.",
+   "'Expire Special Handling Notes' business rule",
+   "'Deactivate Special Handling Notes' UI action",
+   "'Archive Special Handling Notes' scheduled job"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-63",
+  "q": "What are the two types of Special Handling Notes?",
+  "options": [
+   "Standard and Conditional.",
+   "Global and Local",
+   "Public and Private",
+   "Active and Inactive"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-64",
+  "q": "Default value set to 'Maximum number of notes displayed in the SHN pop-up'",
+  "options": [
+   "20",
+   "50",
+   "10",
+   "100"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-65",
+  "q": "Width of the SHN pop-up window in pixels",
+  "options": [
+   "Fixed at 400 pixels",
+   "800 pixels",
+   "Default width is 500. If you specify less than 300, the window automatically uses the default width.",
+   "300 pixels"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-66",
+  "q": "Plugin needed to sync parent and child cases",
+  "options": [
+   "No plugin required. This is OOTB",
+   "Major issue management plugin and other plugins to be enabled"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-67",
+  "q": "How will child cases be kept in sync with a Major Case?",
+  "options": [
+   "Auto update when the parent is updated",
+   "Scheduled job",
+   "Scheduled job that ran daily",
+   "Click on sync child UI action"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-68",
+  "q": "Who can propose a case to be a Major Case? (choose all that apply)",
+  "options": [
+   "Customer Service Agent",
+   "Customer Issue Manager",
+   "Customer Service Manager"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-69",
+  "q": "Who can approve or reject a Major Case candidate? (choose all that apply)",
+  "options": [
+   "Customer Issue Manager",
+   "Customer Service Manager"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-70",
+  "q": "What happens when a Major Case candidate is accepted? (choose all that apply)",
+  "options": [
+   "If the approved candidate CONTAINS an Account or Contact/Consumer, a new case is created as the Major Case and the original case is added as a child",
+   "If the approved candidate DOES NOT CONTAIN an Account or Contact/Consumer, the original case is made the Major Case"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-71",
+  "q": "Which of the following are Major Case states? (choose all that apply)",
+  "options": [
+   "Escalated",
+   "Accepted",
+   "Rejected",
+   "Cancelled",
+   "Completed",
+   "Approved"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-72",
+  "q": "Important points to remember about Major Case management (choose all that apply)",
+  "options": [
+   "A case can only be proposed as a Major Case candidate when it is in a state other than Resolved, Closed or Cancelled",
+   "A child case can only be created when a recipient list is selected on the Major Case",
+   "If you make a Major Case the child of a normal case, it becomes a normal case"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-73",
+  "q": "Which of the following activities are optional while configuring Workflow?",
+  "options": [
+   "Approving Workflow",
+   "Workflow Definitions",
+   "Activities",
+   "Manage Workflow versions"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-74",
+  "q": "Matching rule criteria (choose all that apply)",
+  "options": [
+   "Assigned Cases",
+   "Availability Today",
+   "Matching Skills",
+   "Last Assigned",
+   "Distance",
+   "Partner certifications",
+   "Training"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-75",
+  "q": "Which roles can specify both skills and mandatory skills for cases and tasks? (choose all that apply)",
+  "options": [
+   "Customer Service Managers",
+   "Customer Admins",
+   "Field Service Dispatchers",
+   "Field Service Technicians",
+   "Customer Service Agents",
+   "Partner Admin"
+  ],
+  "correct": [
+   0,
+   2,
+   3,
+   4
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-76",
+  "q": "Assignment Workbench property: number of agents per page",
+  "options": [
+   "100",
+   "10",
+   "Default value is 30. For better performance, do not set this to more than 50 agents per page.",
+   "50"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-77",
+  "q": "Agent Workspace for CSM integrates platform functionality specific to",
+  "options": [
+   "Field Service Technicians",
+   "Partner Admins",
+   "Tier 1 Customer Service Agents",
+   "Tier 2 Customer Service Agents"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-78",
+  "q": "Uses of Agent Workspace (new in Madrid) compared with the traditional UI (choose all that apply)",
+  "options": [
+   "Improve agent productivity with a new multi-tab user interface",
+   "Access contextual data in a single window",
+   "Reduce case handling time",
+   "Improve customer experience"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-79",
+  "q": "Agent Workspace features (choose all that apply)",
+  "options": [
+   "Agent Intelligence (AI) for Agent Assist",
+   "Advanced Work Assignment (AWA)",
+   "Agent Chat",
+   "Lookup and Verify"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-80",
+  "q": "Field Service Mobile (new in Madrid): when your mobile device is offline, you can (choose all that apply)",
+  "options": [
+   "Execute assigned tasks",
+   "Manage assets",
+   "Close work orders and work order tasks (WOT)",
+   "Track the time stamp of updated tasks"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-81",
+  "q": "Which of the following is incorrect?",
+  "options": [
+   "Customer Service Agents manage case escalation",
+   "Customer Account Managers manage account escalation",
+   "Escalation requester can only escalate cases",
+   "Updates on escalation record are not added to the account"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-82",
+  "q": "Escalation states (choose all that apply)",
+  "options": [
+   "Requested",
+   "Escalated",
+   "Declined",
+   "Closed",
+   "De-escalation Requested"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-83",
+  "q": "Follow The Sun: how do the default business rules handle the checkbox?",
+  "options": [
+   "If the box is not already checked, the default business rules check it when the case is P1, P2 or Escalated and the case state is not Cancelled or Closed. If the box is checked, the business rules uncheck it when the case is cancelled or closed.",
+   "They check the box for any case priority, including P3 and P4",
+   "They delete the case when it is cancelled",
+   "They never change the checkbox after it is set"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-84",
+  "q": "Which records can be opened from within a case (Madrid)? (choose all that apply)",
+  "options": [
+   "Incident",
+   "Problem",
+   "Change",
+   "Request"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-85",
+  "q": "Agent Intelligence is used for (choose all that apply)",
+  "options": [
+   "Case categorization",
+   "Case assignment",
+   "Case prioritization"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-86",
+  "q": "How does Artificial Intelligence help improve case management? (choose all that apply)",
+  "options": [
+   "Predicting case values without manual intervention",
+   "Reducing the number of cases needed to accumulate predictive values",
+   "Replacing legacy routing",
+   "Predictive case values",
+   "Predicting the values to be entered in History"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-87",
+  "q": "Matching rules are based on which two defined sets of conditions? (choose all that apply)",
+  "options": [
+   "Case Attributes",
+   "Agent Resources",
+   "Routing",
+   "Assignment"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-88",
+  "q": "Contact self-registration from the Consumer portal doesn't require a Registration Code.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-89",
+  "q": "Customers by default see which header menus? (choose all that apply)",
+  "options": [
+   "Create Case",
+   "Cases",
+   "Orders",
+   "Assets",
+   "Publications",
+   "Notification",
+   "Live Chat",
+   "Contacts"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-90",
+  "q": "Match: Display Request Message",
+  "options": [
+   "Validates the registration code and assigns the account associated with the code",
+   "Shows a message to remind users to enter a correct registration code",
+   "Checks if registration is valid based on the user's email address; if the user exists or a request is already pending, the request is not allowed",
+   "After registration request submittal, shows an info message to the user"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-91",
+  "q": "Match: Display Rule",
+  "options": [
+   "After registration request submittal, shows an info message to the user",
+   "Shows a message to remind users to enter a correct registration code",
+   "Checks if registration is valid based on the user's email address; if the user exists or a request is already pending, the request is not allowed",
+   "Validates the registration code and assigns the account associated with the code"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-92",
+  "q": "Match: Update account based on reg code",
+  "options": [
+   "Checks if registration is valid based on the user's email address; if the user exists or a request is already pending, the request is not allowed",
+   "After registration request submittal, shows an info message to the user",
+   "Validates the registration code and assigns the account associated with the code",
+   "Shows a message to remind users to enter a correct registration code"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-93",
+  "q": "Match: Validate Registration",
+  "options": [
+   "After registration request submittal, shows an info message to the user",
+   "Shows a message to remind users to enter a correct registration code",
+   "Validates the registration code and assigns the account associated with the code",
+   "Checks if registration is valid based on the user's email address; if the user exists or a request is already pending, the request is not allowed"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-94",
+  "q": "Customer Registration Approval",
+  "options": [
+   "Customer Admin Approval",
+   "Agent Manager approval",
+   "No approval required",
+   "System Administrator approval"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-95",
+  "q": "Consumer Registration Approval",
+  "options": [
+   "System Administrator approval",
+   "Agent Manager approval",
+   "Customer Admin approval",
+   "No approval required"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-96",
+  "q": "Four different portals supported (choose all that apply)",
+  "options": [
+   "Customer Support Portal (CSM)",
+   "Consumer Support Portal (CSP)",
+   "Community",
+   "Knowledge"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-97",
+  "q": "Which is true about the CSM demo data plugin?",
+  "options": [
+   "Demo data can be removed by submitting a Remove Demo Data request in HI",
+   "It is not possible to load only data without activating the required applications",
+   "CSM order plugin enables the option to create orders on cases"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-98",
+  "q": "What are the common types of data used for CSM data migration? (choose all that apply)",
+  "options": [
+   "Cases",
+   "Articles",
+   "Products",
+   "Assets",
+   "Accounts",
+   "Contacts",
+   "Locations",
+   "Service Contracts",
+   "Chats"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-99",
+  "q": "Best practice to enable the CSM demo data plugin in which environment?",
+  "options": [
+   "Prod",
+   "Test",
+   "Purchased 'Sandbox'",
+   "Dev"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-100",
+  "q": "Pre-engagement collateral",
+  "options": [
+   "Use the Scoping Guide for low-level technical design only",
+   "Use only the Workshop Guides",
+   "Use only the SIM methodology document",
+   "Use the Scoping Guide for high-level requirements and Business Process Guides for alignment with best practice and requirements workshop guides. Other recommended documents: Customer Preparation Checklist, Technical Implementation Steps, Workshop Guides."
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-101",
+  "q": "SAIF stands for",
+  "options": [
+   "ServiceNow Adaptive Implementation Format",
+   "ServiceNow Adaptive Implementation Framework",
+   "ServiceNow Application Integration Flow",
+   "ServiceNow Advanced Integration Framework"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-102",
+  "q": "SIM stands for",
+  "options": [
+   "ServiceNow Implementation Manual",
+   "ServiceNow Information Mapping",
+   "ServiceNow Integration Model",
+   "ServiceNow Implementation Methodology"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-103",
+  "q": "Benefits of a phased approach to implementation (choose all that apply)",
+  "options": [
+   "Delivery of core functionality quickly",
+   "Release advanced functionality",
+   "Release additional functionality"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-104",
+  "q": "Releases are designed in the following ways",
+  "options": [
+   "Release 1 expands scope; later releases build the foundation",
+   "All functionality is delivered in a single release",
+   "Release 1 retires legacy functionality",
+   "Release 1 builds the foundation, organisational alignment and knowledge. Release 2 and subsequent releases expand scope and/or capability."
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-105",
+  "q": "Final implementation plans and phases are based on (choose all that apply)",
+  "options": [
+   "Organisational and ServiceNow platform maturity",
+   "Organisational rate of reasonable change absorption",
+   "Management of change, related risk and business impact"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-106",
+  "q": "Four components of the ServiceNow Implementation Methodology",
+  "options": [
+   "Process, Technology, Collateral, Support",
+   "Planning, Build, Test, Deploy",
+   "Process, Design, Build, Test",
+   "1. ServiceNow Process, 2. ServiceNow Technology, 3. ServiceNow Collateral, 4. ServiceNow Expertise"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-107",
+  "q": "Emphasis in CSM implementation (choose all that apply)",
+  "options": [
+   "Follow OOB",
+   "Minimal customization",
+   "Design scalability",
+   "Mobile friendly"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-108",
+  "q": "ServiceNow Process stages",
+  "options": [
+   "Initiate, Design, Build, Support",
+   "Plan, Build, Test, Deploy",
+   "Prepare, Execute, Review, Close",
+   "Initiate, Prepare, Create, Transition, Close"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-109",
+  "q": "Engagement manager role before the workshop (choose all that apply)",
+  "options": [
+   "Project Manager",
+   "Acts as intermediary",
+   "Assist with technical requirements",
+   "Assist with tech problems"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-110",
+  "q": "What is the outcome of the Requirement Workshops?",
+  "options": [
+   "Stories",
+   "Test cases",
+   "Release notes",
+   "Sprints"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-111",
+  "q": "Customer kickoff meeting",
+  "options": [
+   "Should be done 2 weeks before the workshop begins, and should be 2-4 hours long.",
+   "Should be done on the day the workshop begins, for 1 hour",
+   "Should be done 4 weeks before go-live",
+   "Should be done after go-live, lasting 1 day"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-112",
+  "q": "When does UAT testing usually happen?",
+  "options": [
+   "On go-live day",
+   "During the requirement workshops",
+   "4-6 weeks before go-live",
+   "2 weeks after go-live"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-113",
+  "q": "Product backlogs are sorted into",
+  "options": [
+   "Sprints",
+   "Epics",
+   "Releases",
+   "Workshops"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-114",
+  "q": "Three options for logging stories (choose all that apply)",
+  "options": [
+   "Centralized Services Portal",
+   "Customer Production Instance",
+   "Stand-alone engagement instance (non-production instance)"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-115",
+  "q": "Configuration complexity levels",
+  "options": [
+   "Nominal, Basic, Advanced, Expert",
+   "Nominal: system as-is. Low: minor changes to base instance. Major: significant changes to base instance with custom integrations or language translations. Drastic: exorbitant changes.",
+   "Simple, Moderate, Complex, Extreme",
+   "Low, Medium, High, Critical"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-116",
+  "q": "Core data best practices (choose all that apply)",
+  "options": [
+   "Select an instance for data import",
+   "Use XML exports/imports or transform maps to copy data to other instances",
+   "Do not re-import or re-create core data separately to each instance"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-117",
+  "q": "Best practice in data import (choose 2)",
+  "options": [
+   "Image in KB to be loaded separately",
+   "Use ServiceNow automation to clean data after the load",
+   "While importing multi-instances, import to each instance separately",
+   "Ensure field data lengths in ServiceNow are adequate, as ServiceNow doesn't adjust length automatically"
+  ],
+  "correct": [
+   0,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-118",
+  "q": "Migrating case records from the previous version",
+  "options": [
+   "Delete all previous case records before migration",
+   "Migrate only closed cases and skip reporting",
+   "Perform a one-time data migration of the pre-current version case records during off-hours. The procedure populates the new Case Report table, which includes three calculated metrics: Agent Reassignment Count, First Contact Resolution and Reopen Count.",
+   "Migrate records during business hours with live users"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-119",
+  "q": "Plugins to activate for CTI integration with VoIP and OpenFrame (choose all that apply)",
+  "options": [
+   "OpenFrame",
+   "Notify",
+   "CTI Softphone",
+   "Customer Service CTI Demo Data"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-120",
+  "q": "Which plugin is enabled for chat with customer and agent?",
+  "options": [
+   "Connect chat plugin",
+   "Connect plugin (As per London eBook)",
+   "No plugin required, it's a CSM feature",
+   "CSM Chat plugin"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-121",
+  "q": "How many incoming emails can be configured?",
+  "options": [
+   "Ten",
+   "Many",
+   "One",
+   "Two"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-122",
+  "q": "How many outgoing emails can be configured?",
+  "options": [
+   "Two",
+   "Many",
+   "Ten",
+   "One"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-123",
+  "q": "If you want to store the Twitter details of an account, which entity can be used?",
+  "options": [
+   "Consumer",
+   "Social Profile",
+   "Asset",
+   "Contact"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-124",
+  "q": "In multiple active OpenFrame configs, selecting no group is equal to",
+  "options": [
+   "Selecting all groups",
+   "Selecting no group"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-125",
+  "q": "OOTB CSM provides three different topics (choose all that apply)",
+  "options": [
+   "Check Case Status",
+   "Get help with Product",
+   "Get help with Order"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-126",
+  "q": "Target communications can be sent to",
+  "options": [
+   "Internal (Employees)",
+   "External (Consumers, Customer Contacts)",
+   "None",
+   "Both"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-127",
+  "q": "Which integration is not possible in CSM? (select one)",
+  "options": [
+   "Rest API",
+   "Table API",
+   "Import Sets",
+   "CAN message"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-128",
+  "q": "Which type of data does SAP provide in the SAP and CSM integration?",
+  "options": [
+   "ERP",
+   "CRM",
+   "Financial"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-129",
+  "q": "Is the Communities plugin active by default with CSM?",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-130",
+  "q": "Communities is tightly integrated out of the box with (choose all that apply)",
+  "options": [
+   "Portal",
+   "Service Management",
+   "Knowledge Management"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-131",
+  "q": "Where can all users view content posted on the Community? (choose all that apply)",
+  "options": [
+   "Content feed and activity feed on the Home page",
+   "Content feed specific to a forum on the Forum page",
+   "Content feed specific to a topic on the Topic page",
+   "Content feed and activity feed on the User Profile specific to that user"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-132",
+  "q": "Forum user types (choose all that apply)",
+  "options": [
+   "Public",
+   "Registered",
+   "Custom (if Custom, users or groups)"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-133",
+  "q": "Forum level access (choose all that apply)",
+  "options": [
+   "Forum Admin",
+   "Forum Moderator"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-134",
+  "q": "Content types in a forum (choose all that apply)",
+  "options": [
+   "Question",
+   "Answer",
+   "Blog",
+   "Comments",
+   "Video"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-135",
+  "q": "A forum is deemed operational only if (choose all that apply)",
+  "options": [
+   "There are content types associated with the forum",
+   "The forum has forum permission records associated with it"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-136",
+  "q": "Time Zone Preference (new in Madrid)",
+  "options": [
+   "Time zone is set only by the system administrator",
+   "Community users can choose their preferred time zone, which shows up on their event details page.",
+   "Time zone appears only on the Forum page",
+   "Time zone is fixed to UTC for all community users"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-137",
+  "q": "Customer Service Management unified theme menus (choose all that apply)",
+  "options": [
+   "Portal Header Menu",
+   "Portal Footer Menu",
+   "Portal Header Secondary Menu",
+   "Portal Config Menu"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-138",
+  "q": "Contextual search appears in",
+  "options": [
+   "Only Portal Question",
+   "Only Record Producer",
+   "None of the above",
+   "Both Portal Question and Record Producer"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-139",
+  "q": "Maximum file size to be shared in a community (document content type must be active)",
+  "options": [
+   "5MB",
+   "10MB",
+   "25MB",
+   "1MB"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-140",
+  "q": "Following widgets are part of the Customer Service Management Unified Theme plugin (choose all that apply)",
+  "options": [
+   "CSM Styleguide",
+   "CSM Unified Portal Footer",
+   "CSM Unified Portal Footer Menu Widget",
+   "CSM Unified Portal Header",
+   "CSM Unified Portal Header Menu Widget"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3,
+   4
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-141",
+  "q": "Support content feedback (choose all that apply)",
+  "options": [
+   "Up-votes (questions)",
+   "Mark as correct (answers)",
+   "Comment (blogs and videos)",
+   "Helpful (blogs, answers, videos)"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-142",
+  "q": "Securing the community from viruses in attachments (new in Madrid)",
+  "options": [
+   "Virus scanning is available only to Community Admins",
+   "Content authors are notified via UI and email when an uploaded file is infected. Content users cannot download an attachment until the antivirus scan completes successfully. Community Admins, Community Moderators, Forum Admins and Forum Moderators are notified of any infected upload. Benefits: keeps communities clean from virus threats and increases trust among community users.",
+   "Infected files are deleted without any notification",
+   "Uploaded files are scanned only after they are downloaded"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-143",
+  "q": "Knowledge articles can be used for (choose any 3)",
+  "options": [
+   "Information about service contracts",
+   "Document current and known issues",
+   "Provide answers and responses to common issues or questions",
+   "Product information"
+  ],
+  "correct": [
+   1,
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-144",
+  "q": "How do you report a knowledge gap?",
+  "options": [
+   "Document the questions in the work notes and escalate the case",
+   "Create a knowledge article by clicking the Creating a knowledge UI action",
+   "Post the questions in any of the CSM articles",
+   "Knowledge Gap related list"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-145",
+  "q": "Knowledge Management Service Portal plugin name",
+  "options": [
+   "com.snc.knowledge_portal",
+   "com.snc.knowledge_serviceportal",
+   "com.glideapp.knowledge",
+   "com.snc.knowledge3"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-146",
+  "q": "The KM plugin com.snc.knowledge_serviceportal requires",
+  "options": [
+   "Customer Service Management (com.sn_customerservice)",
+   "Notify (com.snc.notify)",
+   "Knowledge Management V3 (com.snc.knowledge3)",
+   "Knowledge Management V2 (com.snc.knowledge2)"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-147",
+  "q": "User criteria that control who can read or contribute to a knowledge base (choose all that apply)",
+  "options": [
+   "CanRead",
+   "CantRead",
+   "CanContribute",
+   "CantContribute"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-148",
+  "q": "Knowledge product entitlement pre-requisites",
+  "options": [
+   "Enable the plugin and set the knowledge base language to English",
+   "Create a user criteria record for every article",
+   "Activate the 'Knowledge Product Entitlements' plugin, then enable access control based on product entitlements in the Knowledge Product Entitlements application, and select the desired knowledge base or article product entitlement.",
+   "Only enable the Knowledge Product Entitlements plugin, with no other configuration"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-149",
+  "q": "Which plugins are required to enable translation of knowledge articles? (choose all that apply)",
+  "options": [
+   "I18N: Knowledge Management Internationalization v2 plugin (com.glideapp.knowledge.i18n2)",
+   "Internationalization plugins for each appropriate language"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-150",
+  "q": "If no language is specified in the system property glide.knowman.search.default_language, which language is enabled by default?",
+  "options": [
+   "English",
+   "Articles default to the logged-in language of the user.",
+   "The language of the first article created",
+   "The language set on the knowledge base"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-151",
+  "q": "Social Q&A does not use language-specific questions and answers.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-152",
+  "q": "KCS stands for",
+  "options": [
+   "Knowledge Customer Support",
+   "Knowledge Case Service",
+   "Knowledge Content Service",
+   "Knowledge Centered Services"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-153",
+  "q": "What is the characteristic of knowledge categories?",
+  "options": [
+   "Shareable across all KBs: Yes, multilevel categories: Yes",
+   "Shareable across all KBs: Yes, multilevel categories: No",
+   "Shareable across all KBs: No, multilevel categories: Yes",
+   "Shareable across all KBs: No, multilevel categories: No"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-154",
+  "q": "How can you restrict access to knowledge articles? (choose all that apply)",
+  "options": [
+   "Data policy",
+   "Knowledge Product entitlements",
+   "ACL",
+   "User criteria"
+  ],
+  "correct": [
+   1,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-155",
+  "q": "True/false: KB portal related to CSM (choose 2)",
+  "options": [
+   "KB portals cannot be accessed by customers",
+   "KB entitlement resists access based on product entitlement",
+   "Targeted communications can send articles to both external and internal customers",
+   "The only two means to integrate external KB source and internal is by URL to KB source and KB articles"
+  ],
+  "correct": [
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-156",
+  "q": "Workflow is defined at the knowledge article level or the knowledge base level?",
+  "options": [
+   "Both at the same time, chosen per article",
+   "Knowledge article level",
+   "Knowledge Base level",
+   "Knowledge category level"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-157",
+  "q": "Benefits of Knowledge Product Entitlements (choose all that apply)",
+  "options": [
+   "Customers and consumers are provided with only relevant articles",
+   "First point of call when a customer needs information",
+   "Reduction in call volume",
+   "Product-specific information can be kept up to date through the knowledge article lifecycle"
+  ],
+  "correct": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-158",
+  "q": "What is true about KB external content integration? (choose all that apply)",
+  "options": [
+   "SharePoint blocks KB integration",
+   "Only WebDAV connections are allowed",
+   "KB articles will have the same category as the source KB",
+   "Imported articles appear as attachments"
+  ],
+  "correct": [
+   1,
+   3
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-159",
+  "q": "Knowledge article migration: images embedded in articles",
+  "options": [
+   "Images embedded in articles must be uploaded separately: store images externally, use a script to upload images and attach them to the knowledge record body text, or manually perform one or more export/import tasks.",
+   "Images are imported automatically with the article body",
+   "Images are stored in the article's attachments and do not need separate upload",
+   "Images are converted to text during migration"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-160",
+  "q": "New knowledge roles added in Madrid (choose all that apply)",
+  "options": [
+   "Knowledge Group Manager",
+   "Knowledge Group Member"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-161",
+  "q": "You can only harvest solved questions with accepted solutions.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-162",
+  "q": "Which role can add reports to the Service Manager homepage?",
+  "options": [
+   "Customer Service Agent",
+   "Customer Service Agent Manager (sn_customerservice_manager)",
+   "Cust_admin",
+   "Cust_case_manager"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-163",
+  "q": "Customer Service Executive dashboard: the Cost Information tab is shown when the Performance Analytics Financial Management content pack is activated.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-164",
+  "q": "Customer Service Executives and Managers use the dashboards to understand (choose all that apply)",
+  "options": [
+   "Operations",
+   "Trends",
+   "Team Performance"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-165",
+  "q": "Role required to create dashboards and indicators",
+  "options": [
+   "pa_admin",
+   "admin",
+   "itil",
+   "sn_customerservice_manager"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-166",
+  "q": "The Performance Analytics Content Pack for Customer Service (New) plugin requires a separate license.",
+  "options": [
+   "True",
+   "False"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-167",
+  "q": "Match: Customer Agent",
+  "options": [
+   "sn_customerservice_manager",
+   "sn_customerservice.partner",
+   "sn_customerservice.consumer",
+   "sn_customerservice.customer",
+   "sn_customerservice.partner_admin",
+   "sn_customerservice_agent",
+   "sn_customerservice.customer_case_manager",
+   "sn_customerservice.consumer_agent",
+   "sn_customerservice.customer_admin"
+  ],
+  "correct": [
+   5
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-168",
+  "q": "Match: Consumer Agent",
+  "options": [
+   "sn_customerservice.customer_admin",
+   "sn_customerservice.consumer_agent",
+   "sn_customerservice_manager",
+   "sn_customerservice.consumer",
+   "sn_customerservice_agent",
+   "sn_customerservice.partner_admin",
+   "sn_customerservice.partner",
+   "sn_customerservice.customer_case_manager",
+   "sn_customerservice.customer"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-169",
+  "q": "Match: Agent Manager",
+  "options": [
+   "sn_customerservice_manager",
+   "sn_customerservice.partner",
+   "sn_customerservice_agent",
+   "sn_customerservice.partner_admin",
+   "sn_customerservice.customer_case_manager",
+   "sn_customerservice.customer_admin",
+   "sn_customerservice.customer",
+   "sn_customerservice.consumer",
+   "sn_customerservice.consumer_agent"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-170",
+  "q": "Match: Customer (B2B)",
+  "options": [
+   "sn_customerservice_manager",
+   "sn_customerservice_agent",
+   "sn_customerservice.customer_case_manager",
+   "sn_customerservice.partner",
+   "sn_customerservice.customer",
+   "sn_customerservice.consumer",
+   "sn_customerservice.partner_admin",
+   "sn_customerservice.consumer_agent",
+   "sn_customerservice.customer_admin"
+  ],
+  "correct": [
+   4
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-171",
+  "q": "Match: Partner (B2B)",
+  "options": [
+   "sn_customerservice.partner",
+   "sn_customerservice.customer_admin",
+   "sn_customerservice.customer_case_manager",
+   "sn_customerservice.customer",
+   "sn_customerservice.partner_admin",
+   "sn_customerservice_agent",
+   "sn_customerservice.consumer_agent",
+   "sn_customerservice.consumer",
+   "sn_customerservice_manager"
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-172",
+  "q": "Match: Customer Admin",
+  "options": [
+   "sn_customerservice.customer",
+   "sn_customerservice_manager",
+   "sn_customerservice_agent",
+   "sn_customerservice.partner_admin",
+   "sn_customerservice.consumer",
+   "sn_customerservice.partner",
+   "sn_customerservice.consumer_agent",
+   "sn_customerservice.customer_admin",
+   "sn_customerservice.customer_case_manager"
+  ],
+  "correct": [
+   7
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-173",
+  "q": "Match: Partner Admin",
+  "options": [
+   "sn_customerservice.customer_case_manager",
+   "sn_customerservice.partner_admin",
+   "sn_customerservice.partner",
+   "sn_customerservice_agent",
+   "sn_customerservice.customer_admin",
+   "sn_customerservice.consumer",
+   "sn_customerservice.customer",
+   "sn_customerservice_manager",
+   "sn_customerservice.consumer_agent"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-174",
+  "q": "Match: Customer Case Manager",
+  "options": [
+   "sn_customerservice_agent",
+   "sn_customerservice.consumer_agent",
+   "sn_customerservice.customer_case_manager",
+   "sn_customerservice.customer_admin",
+   "sn_customerservice_manager",
+   "sn_customerservice.consumer",
+   "sn_customerservice.partner_admin",
+   "sn_customerservice.customer",
+   "sn_customerservice.partner"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-175",
+  "q": "Match: Consumer (B2C)",
+  "options": [
+   "sn_customerservice.consumer_agent",
+   "sn_customerservice.customer_case_manager",
+   "sn_customerservice.partner_admin",
+   "sn_customerservice.partner",
+   "sn_customerservice.customer",
+   "sn_customerservice.consumer",
+   "sn_customerservice.customer_admin",
+   "sn_customerservice_agent",
+   "sn_customerservice_manager"
+  ],
+  "correct": [
+   5
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-176",
+  "q": "Which role applies to customers and consumers using CSM or CSP, and which to agents and agent managers using CSM applications?",
+  "options": [
+   "Both roles apply to customers only",
+   "snc_external is for customers and consumers using CSM or CSP. snc_internal is for agents and agent managers using CSM applications.",
+   "snc_external is for admins; snc_internal is for consumers",
+   "snc_internal is for customers; snc_external is for agents"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-177",
+  "q": "Match: Customer Support Agent / Consumer Support Agent",
+  "options": [
+   "Manages agent teams and oversees operations in customer service, including service delivery, personnel management and escalations",
+   "Has the overall responsibility of the Customer Service organisation",
+   "Users of the organisation who provide customer service and resolve cases. Agents are organised into groups and skilled on specific products and service channels.",
+   "Works to implement Customer Service Management in Service"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-178",
+  "q": "Match: Customer Support Agent Manager",
+  "options": [
+   "Works to implement Customer Service Management in Service",
+   "Has the overall responsibility of the Customer Service organisation",
+   "Users of the organisation who provide customer service and resolve cases. Agents are organised into groups and skilled on specific products and service channels.",
+   "Manages agent teams and oversees operations in customer service, including service delivery, personnel management and escalations"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-179",
+  "q": "Match: Customer Service Executive",
+  "options": [
+   "Manages agent teams and oversees operations in customer service, including service delivery, personnel management and escalations",
+   "Users of the organisation who provide customer service and resolve cases. Agents are organised into groups and skilled on specific products and service channels.",
+   "Has the overall responsibility of the Customer Service organisation",
+   "Works to implement Customer Service Management in Service"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-180",
+  "q": "Match: ServiceNow System Administration",
+  "options": [
+   "Works to implement Customer Service Management in Service",
+   "Has the overall responsibility of the Customer Service organisation",
+   "Manages agent teams and oversees operations in customer service, including service delivery, personnel management and escalations",
+   "Users of the organisation who provide customer service and resolve cases. Agents are organised into groups and skilled on specific products and service channels."
+  ],
+  "correct": [
+   0
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-181",
+  "q": "Customer Admin role options",
+  "options": [
+   "Customer Admins can edit the system configuration for the instance",
+   "Customer Admins have no access to contact records",
+   "Customer Admins can delete accounts and all their contacts",
+   "CSM administrators can delegate contact administration to contacts within accounts. Customer Admins can manage all data for their accounts, edit information and roles for existing contacts, and approve or reject new contacts. Contacts header menu: manage existing contacts. Notification header menu: self-registration tasks."
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-182",
+  "q": "Customer/Partner (B2B) users can (choose all that apply)",
+  "options": [
+   "Research questions, issues or problems",
+   "Create, view and edit cases for their own accounts",
+   "View assets that belong to their accounts",
+   "Create cases on behalf of any customer on the platform"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "multi": true
+ },
+ {
+  "id": "CSM-183",
+  "q": "Consumer (B2C) users are used for",
+  "options": [
+   "Internal ITSM incidents only",
+   "Partner onboarding",
+   "B2C Customer Service Management",
+   "B2B Customer Service Management"
+  ],
+  "correct": [
+   2
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-184",
+  "q": "Match: Customer Service plugin",
+  "options": [
+   "com.glide.service-portal.customer-portal",
+   "com.sn_openframe",
+   "com.snc.pa.communities",
+   "com.snc.csm_fsm_integration",
+   "com.snc.notify.twilio",
+   "com.snc.csm_time_recording",
+   "com.snc.notify",
+   "com.snc.pa.customer_service",
+   "com.glide.service-portal.consumer-portal",
+   "com.sn_customerservice"
+  ],
+  "correct": [
+   9
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-185",
+  "q": "Match: Consumer Service Portal",
+  "options": [
+   "com.snc.notify.twilio",
+   "com.sn_customerservice",
+   "com.snc.csm_fsm_integration",
+   "com.glide.service-portal.customer-portal",
+   "com.sn_openframe",
+   "com.glide.service-portal.consumer-portal",
+   "com.snc.csm_time_recording",
+   "com.snc.pa.communities",
+   "com.snc.pa.customer_service",
+   "com.snc.notify"
+  ],
+  "correct": [
+   5
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-186",
+  "q": "Match: Customer Service Portal",
+  "options": [
+   "com.glide.service-portal.consumer-portal",
+   "com.snc.notify",
+   "com.snc.csm_time_recording",
+   "com.snc.pa.communities",
+   "com.snc.notify.twilio",
+   "com.snc.csm_fsm_integration",
+   "com.sn_customerservice",
+   "com.sn_openframe",
+   "com.glide.service-portal.customer-portal",
+   "com.snc.pa.customer_service"
+  ],
+  "correct": [
+   8
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-187",
+  "q": "Match: Customer Service with Field Service Management",
+  "options": [
+   "com.snc.notify",
+   "com.snc.pa.customer_service",
+   "com.snc.csm_time_recording",
+   "com.snc.pa.communities",
+   "com.sn_customerservice",
+   "com.glide.service-portal.customer-portal",
+   "com.snc.notify.twilio",
+   "com.snc.csm_fsm_integration",
+   "com.glide.service-portal.consumer-portal",
+   "com.sn_openframe"
+  ],
+  "correct": [
+   7
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-188",
+  "q": "Match: Notify",
+  "options": [
+   "com.snc.pa.customer_service",
+   "com.snc.pa.communities",
+   "com.snc.notify.twilio",
+   "com.sn_openframe",
+   "com.sn_customerservice",
+   "com.glide.service-portal.consumer-portal",
+   "com.snc.csm_fsm_integration",
+   "com.snc.csm_time_recording",
+   "com.snc.notify",
+   "com.glide.service-portal.customer-portal"
+  ],
+  "correct": [
+   8
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-189",
+  "q": "Match: Notify - Twilio Driver",
+  "options": [
+   "com.snc.pa.customer_service",
+   "com.glide.service-portal.consumer-portal",
+   "com.sn_customerservice",
+   "com.snc.notify.twilio",
+   "com.snc.pa.communities",
+   "com.snc.csm_time_recording",
+   "com.snc.notify",
+   "com.sn_openframe",
+   "com.glide.service-portal.customer-portal",
+   "com.snc.csm_fsm_integration"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-190",
+  "q": "Match: OpenFrame",
+  "options": [
+   "com.snc.pa.customer_service",
+   "com.sn_openframe",
+   "com.snc.pa.communities",
+   "com.snc.csm_fsm_integration",
+   "com.snc.notify",
+   "com.glide.service-portal.customer-portal",
+   "com.sn_customerservice",
+   "com.snc.csm_time_recording",
+   "com.glide.service-portal.consumer-portal",
+   "com.snc.notify.twilio"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-191",
+  "q": "Match: Performance Analytics - Content Pack - Customer Service (New)",
+  "options": [
+   "com.snc.csm_fsm_integration",
+   "com.glide.service-portal.customer-portal",
+   "com.snc.csm_time_recording",
+   "com.glide.service-portal.consumer-portal",
+   "com.snc.pa.communities",
+   "com.sn_customerservice",
+   "com.snc.pa.customer_service",
+   "com.snc.notify",
+   "com.snc.notify.twilio",
+   "com.sn_openframe"
+  ],
+  "correct": [
+   6
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-192",
+  "q": "Match: Performance Analytics - Content Pack - Communities",
+  "options": [
+   "com.snc.pa.customer_service",
+   "com.snc.pa.communities",
+   "com.snc.csm_fsm_integration",
+   "com.snc.notify.twilio",
+   "com.glide.service-portal.customer-portal",
+   "com.glide.service-portal.consumer-portal",
+   "com.sn_openframe",
+   "com.sn_customerservice",
+   "com.snc.csm_time_recording",
+   "com.snc.notify"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-193",
+  "q": "Match: Time Recording for Customer Service",
+  "options": [
+   "com.glide.service-portal.consumer-portal",
+   "com.snc.csm_fsm_integration",
+   "com.snc.notify",
+   "com.snc.csm_time_recording",
+   "com.sn_customerservice",
+   "com.snc.pa.communities",
+   "com.snc.notify.twilio",
+   "com.snc.pa.customer_service",
+   "com.glide.service-portal.customer-portal",
+   "com.sn_openframe"
+  ],
+  "correct": [
+   3
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-194",
+  "q": "How many problems can be associated with a Case?",
+  "options": [
+   "One",
+   "Unlimited",
+   "It can be set in System Properties"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ },
+ {
+  "id": "CSM-195",
+  "q": "In the Timeline (Resolution Shaper), what does the blue dot represent?",
+  "options": [
+   "Other case activities",
+   "State change"
+  ],
+  "correct": [
+   1
+  ],
+  "multi": false
+ }
+]
