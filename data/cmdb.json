@@ -1111,20 +1111,6 @@
   "multi": true
  },
  {
-  "id": "CMDB-80",
-  "q": "A Configuration Management Governance team is transitioning from utilizing legacy CMDB status fields to CSDM life cycle status fields. Which table can be modified?",
-  "options": [
-   "Life Cycle Mapping [life_cycle_mapping]",
-   "Life Cycle Stages [life_cycle_stage]",
-   "Life Cycle Controls [life_cycle_control]",
-   "Life Cycle Stage Status [life_cycle_stage_status]"
-  ],
-  "correct": [
-   0
-  ],
-  "multi": false
- },
- {
   "id": "CMDB-81",
   "q": "In a company there is a need to understand the CSDM maturity level needed. Different stakeholders listed a number of use cases that they expect over time. Which use case requires information objects?",
   "options": [
@@ -1292,34 +1278,6 @@
   "multi": false
  },
  {
-  "id": "CMDB-93",
-  "q": "Where can a CMDB 360/Multisource CMDB Saved Query be viewed and created in the CMDB Workspace?",
-  "options": [
-   "Saved queries window on the Insights tab",
-   "CMDB Query Builder",
-   "Saved queries window on the CMDB 360 tab",
-   "Coverage window on the CMDB 360 tab"
-  ],
-  "correct": [
-   2
-  ],
-  "multi": false
- },
- {
-  "id": "CMDB-94",
-  "q": "Where can an administrator perform Natural Language Queries (NLQ)?",
-  "options": [
-   "CMDB Data Manager",
-   "CMDB Workspace",
-   "CI Class Manager",
-   "CMDB Health Dashboard"
-  ],
-  "correct": [
-   1
-  ],
-  "multi": false
- },
- {
   "id": "CMDB-95",
   "q": "A CMDB Administrator is implementing a Vulnerability Response or Security Incident Response and needs to ensure customers have enough context to estimate risk and set task priorities. Which Get Well Playbook from the CSDM Data Foundations Dashboard helps with this?",
   "options": [
@@ -1458,19 +1416,6 @@
   ],
   "correct": [
    2
-  ],
-  "multi": false
- },
- {
-  "id": "CMDB-105",
-  "q": "The CMDB Configuration Management team wants to manage de-duplication tasks generated from data ingested into the CMDB via the Identification and Reconciliation Engine (IRE). In which area of the CMDB Workspace can they locate these de-duplication tasks?",
-  "options": [
-   "Important actions tile under the Home tab",
-   "Total status tile under the My Work tab",
-   "CMDB feature adoption tile under the Insights tab"
-  ],
-  "correct": [
-   1
   ],
   "multi": false
  },
@@ -1737,46 +1682,6 @@
   "multi": true
  },
  {
-  "id": "CMDB-125",
-  "q": "A CMDB Administrator is asked to clean up the CMDB duplicates. What is the preferred way to manage this task?",
-  "options": [
-   "My Tasks in the Application Navigator",
-   "The de-duplication task module",
-   "The de-duplication dashboard on the CMDB workspace"
-  ],
-  "correct": [
-   2
-  ],
-  "multi": false
- },
- {
-  "id": "CMDB-126",
-  "q": "An Asset Manager wants to ensure that Asset records and CI records are kept synchronized automatically. How does the Manager do this?",
-  "options": [
-   "Ensure that the business rule to update Asset fields on change on the CI table is active",
-   "Ensure that scheduled jobs are run during off-business hours to ensure that sync happens",
-   "Ensure that the business rule to update CI fields on change on the asset table is active",
-   "Ensure one-to-one physical mapping between Asset and CI"
-  ],
-  "correct": [
-   0
-  ],
-  "multi": false
- },
- {
-  "id": "CMDB-127",
-  "q": "An organization needs to maintain non-discoverable attributes, such as warranty expiration dates, for hardware CIs. These attributes are not updated by automated discovery tools. What method ensures these attributes are accurately maintained for all CIs?",
-  "options": [
-   "Use the CMDB Reconciliation Engine to update the attributes",
-   "Use a scheduled data import to update the attributes from an external source",
-   "Create a new CI class specifically for non-discoverable attributes"
-  ],
-  "correct": [
-   1
-  ],
-  "multi": false
- },
- {
   "id": "CMDB-128",
   "q": "An organization is changing data centers and needs to know the consequences of the planned changes. How can Application Service mapping be used as part of Change Management?",
   "options": [
@@ -1869,20 +1774,6 @@
    "Certification Filter, Certification Template, Audit",
    "Stale, Orphan, Duplicate",
    "Certification Policies, Data Filters, Scheduled Jobs"
-  ],
-  "correct": [
-   1
-  ],
-  "multi": false
- },
- {
-  "id": "CMDB-135",
-  "q": "A healthcare provider faces a critical incident affecting its patient management system. The provider needs to determine the users impacted to mitigate disruption effectively. Which CSDM-related data should they leverage?",
-  "options": [
-   "Affected CI [task_ci] related list",
-   "Service Offerings by Department or Location",
-   "Incident history of similar CIs",
-   "Application Service environment attribute"
   ],
   "correct": [
    1
@@ -2121,19 +2012,6 @@
   ],
   "correct": [
    1
-  ],
-  "multi": false
- },
- {
-  "id": "CMDB-153",
-  "q": "A CMDB Administrator is asked to clean up CMDB duplicates. What is the preferred way to manage this task?",
-  "options": [
-   "My Tasks",
-   "De-duplication task module",
-   "De-duplication dashboard on CMDB Workspace"
-  ],
-  "correct": [
-   2
   ],
   "multi": false
  }

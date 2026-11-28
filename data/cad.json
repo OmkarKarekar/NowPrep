@@ -304,11 +304,13 @@
    "Upload and turn a spreadsheet into a custom table",
    "Using Flow Designer",
    "Use the Now Experience Table Creator",
-   "Extend a table"
+   "Extend a table",
+   "Create a custom table"
   ],
   "correct": [
    1,
-   4
+   4,
+   5
   ],
   "multi": true
  },
